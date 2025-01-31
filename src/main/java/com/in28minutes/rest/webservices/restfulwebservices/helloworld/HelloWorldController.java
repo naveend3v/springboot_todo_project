@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @RestController
 public class HelloWorldController {
 
+	@GetMapping(path = "/basicauth")
+	public String basicAuthCheck() {
+		return "Success";
+	}
+
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
 		return "Hello World v1";

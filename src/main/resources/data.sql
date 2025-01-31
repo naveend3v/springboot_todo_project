@@ -1,0 +1,7 @@
+--insert into todos.todo (id, description, done, target_date, username) values (1,'Brush my teeth',false,Current_Date(),'in28minutes');
+--
+--insert into todos.todo (id, description, done, target_date, username) values (2,'Go for a walk',false,Current_Date(),'in28minutes');
+--
+--insert into todos.todo (id, description, done, target_date, username) values (3,'25 Pushups',false,Current_Date(),'in28minutes');
+--
+--insert into todos.todo (id, description, done, target_date, username) values (4,'5 Min breath exercise',false,Current_Date(),'in28minutes');
